@@ -22,7 +22,7 @@
 ###### username : yuchira1 
 ###### password : yuchira1999
 
-## Architecture  :
+## scripts :
 ######  {backend scripts}  "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js"
