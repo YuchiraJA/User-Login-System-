@@ -22,3 +22,17 @@
 ###### username : yuchira1 
 ###### password : yuchira1999
 
+## Architecture  :
+######   "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  
+###### {frontend scripts} :  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+
+
