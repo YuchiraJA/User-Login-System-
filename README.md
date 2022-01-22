@@ -19,6 +19,6 @@
 ###### First go to frontend folder using "cd frontend" in ther terminal. Then type "npm install" and type "npm start" to run the frontend react js server.
 
 ####  MongoDB Database - Collection User - 
-####### username : yuchira1 
-####### password : yuchira1999
+###### username : yuchira1 
+###### password : yuchira1999
 
