@@ -1,7 +1,5 @@
 # User Login System
 
-## Project Name - Online Pharmacy Web Application
-
 ## Technologies used - 
 ####                     Frontend - ReatJS
 ####                     Backend  - NodeJS, ExpressJS
