@@ -1,31 +1,30 @@
-version: "3"
-services:
-  react-app:
-    image: react-app
-    stdin_open: true
+version: '3.8'
+services: 
+  api:
+    container_name: api-container
+    restart: always
+    build: ./BACKEND
+    ports: 
+      - "8070:8070"
+    depends_on: 
+      - mongo
+  client:
+    container_name: client-container
+    restart: always
+    build: ./frontend
     ports: 
       - "3000:3000"
-    networks:
-      - mern-app
-  api-server:
-    image: api-server
-    ports:
-      - "8070:8070"
-    networks:
-      - mern-app
-    depends_on:
-      - mongo
+    depends_on: 
+      - api
   mongo:
-    image: mongo:3.6.19-xenial
-    ports:
+    container_name: mongo-backend
+    image: mongo
+    expose: 
+      - "27017"
+    ports: 
       - "27017:27017"
-    networks:
-      - mern-app
-    volumes:
-      - mongo-data:/data/db
-networks:
-  mern-app:
-    driver: bridge
-volumes:
-  mongo-data:
-    driver: local
+    volumes: 
+      - apiDB:/data/db
+
+volumes: 
+  apiDB:

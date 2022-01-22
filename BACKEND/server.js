@@ -32,32 +32,10 @@ const connection = mongoose.connection;
 connection.once("open", () =>{
     console.log("mongodb Connection success");
 })
-//access to supplier.js 
-// const supplierRouter = require("./routes/supplier.js");
-// app.use("/supplier",supplierRouter);
 
 const userRouter = require("./routes/user.js");
 app.use("/user",userRouter);
 
-// const classRouter = require("./routes/class");
-// app.use("/student",classRouter);
-
-// const studentRouter = require("./routes/student");
-// app.use("/student",studentRouter);
-
-// const attendenceRouter = require("./routes/attendence");
-// app.use("/student",attendenceRouter);
-
-// const presentRouter = require("./routes/present");
-// app.use("/student",presentRouter);
-
-// const absentRouter = require("./routes/absent");
-// app.use("/student",absentRouter);
-
-// const paymentRouter = require("./routes/payment");
-// app.use("/student",paymentRouter);
-// // app.use("/admin",adminRouter);
-// // app.use("/mysuporders",myordersRouter);
 
 //running port 8970
 app.listen(PORT, () =>{
