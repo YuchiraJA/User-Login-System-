@@ -1,9 +1,9 @@
 # User Login System
 
 ## Technologies used - 
-####                     Frontend - ReatJS
-####                     Backend  - NodeJS, ExpressJS
-####                     Database - MongoDB 
+######                   Frontend - ReatJS
+######                   Backend  - NodeJS, ExpressJS
+######                    Database - MongoDB 
 
 
 ## Architecture  :
