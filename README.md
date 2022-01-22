@@ -23,12 +23,12 @@
 ###### password : yuchira1999
 
 ## Architecture  :
-######   "scripts": {
+######  {backend scripts}  "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
   
-###### {frontend scripts} :  "scripts": {
+###### {frontend scripts}   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
