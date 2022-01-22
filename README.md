@@ -7,9 +7,9 @@
 
 
 ## Architecture  :
-####  {React Components}
-####  {Backend APIs and authenticated or public}
-####  MongoDB Database - Collection Name - student_db
+######  {React Components}
+###### {Backend APIs and authenticated or public}
+###### MongoDB Database - Collection Name - student_db
 
 ## Conguration Details  :
 ####  Backend (node js, express js, mongodb) configurations : 
